@@ -2,6 +2,19 @@
 
 Une application web de recommandation de films combinant un backend Python/Flask (API REST + Scikit-learn) et un frontend React.js, avec persistance des utilisateurs et des préférences via Firebase. Le système propose des recommandations personnalisées basées sur un mélange de filtrage collaboratif et de contenu, en s'appuyant sur Pandas et Scikit-learn.
 
+### Démo visuelle
+
+![Sign Up / Profil](screenshots/signup.png)
+![Login / Profil](screenshots/login.png)
+![Page d'accueil](screenshots/home.png)
+![Login / Profil](screenshots/Dashboard.png)
+![Recommandations](screenshots/Recommendation.png)
+![Pas de Notes / Profil](screenshots/NoNotesNoRcmd.png)
+![Rating / Profil](screenshots/rating.png)
+![Top 10 / Profil](screenshots/top10.png)
+![Firebase / Profil](screenshots/collection.png)
+
+
 ### Sommaire
 - Présentation
 - Architecture & Stack
@@ -38,6 +51,7 @@ Frontend (React/Vite)  <—— Axios ——>  Backend (Flask)  <——>  Firebas
 - **Recommandations personnalisées**: endpoint dédié générant des suggestions selon l'historique/likes.
 - **Top 10 ML**: endpoint exposant un classement basé sur des modèles ML.
 - **Recherche et catégories**: intégration TMDb pour découvrir des contenus.
+
 
 ### Prérequis
 - Node.js 16+ et npm
