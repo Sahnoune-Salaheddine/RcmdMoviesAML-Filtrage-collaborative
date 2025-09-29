@@ -7,7 +7,6 @@ Une application web de recommandation de films combinant un backend Python/Flask
 ![Sign Up / Profil](screenshots/SignUp.png)
 ![Login / Profil](screenshots/login.png)
 ![Page d'accueil](screenshots/Home.png)
-![Login / Profil](screenshots/Dashboard.png)
 ![Recommandations](screenshots/Recommendation.png)
 ![Pas de Notes / Profil](screenshots/NoNotesNoRcmd.png)
 ![Rating / Profil](screenshots/Rating.png)
